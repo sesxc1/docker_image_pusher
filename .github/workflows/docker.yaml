@@ -57,7 +57,7 @@ jobs:
 
     - name: Build and push image Aliyun
       run: |
-        docker login -u cnidc@126.com -p xc1828348 registry.cn-hangzhou.aliyuncs.com
+        docker login --username=cnidc@126.com registry.cn-hangzhou.aliyuncs.com
         # 数据预处理,判断镜像是否重名
         declare -A duplicate_images
         declare -A temp_map
