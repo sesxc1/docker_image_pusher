@@ -1,1 +1,1 @@
-dify:v0.6.15
+dify:latest
